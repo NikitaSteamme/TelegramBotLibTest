@@ -14,7 +14,7 @@ public class RubiusTestBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "5207427991:AAFi4KjO2jy3H1mih7MPsmRFqz9sbbzjsXI";
+        return "";
     }
 
     @SneakyThrows
