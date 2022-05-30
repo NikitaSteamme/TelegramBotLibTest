@@ -5,6 +5,7 @@ import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
+
 public class RubiusTestBot extends TelegramLongPollingBot {
 
     @Override
@@ -12,9 +13,12 @@ public class RubiusTestBot extends TelegramLongPollingBot {
         return "RubiusTestBot";
     }
 
+
+
+
     @Override
     public String getBotToken() {
-        return "5207427991:AAFi4KjO2jy3H1mih7MPsmRFqz9sbbzjsXI";
+        return Settings.TELEGRAM_BOT_KEY;
     }
 
     @SneakyThrows
