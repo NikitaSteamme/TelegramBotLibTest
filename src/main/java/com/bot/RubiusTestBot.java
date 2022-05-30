@@ -19,7 +19,7 @@ public class RubiusTestBot extends TelegramLongPollingBot {
     @Override
     public String getBotToken() {
         return Settings.TELEGRAM_BOT_KEY;
-    }
+    } //healed
 
     @SneakyThrows
     @Override
